@@ -1,0 +1,12 @@
+{
+  "name": "modfitment-log",
+  "version": "0.1.0",
+  "description": "Local log for car mods and wheel and tire fitment.",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

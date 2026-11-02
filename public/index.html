@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Mod Fitment Log</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="#/">Mod Fitment Log</a>
+    <nav class="bar-actions" aria-label="Backup">
+      <a class="link" href="/api/export" download="modfitment-backup.json">Export</a>
+      <label class="link file-link">Import<input id="import" type="file" accept="application/json,.json"></label>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
